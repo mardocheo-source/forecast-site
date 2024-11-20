@@ -12,6 +12,12 @@ body {
     cursor: pointer;
 }
 
+#announcement {
+    color:red;
+    font-size: 24px;
+}
+
 h1 {
     margin-top: 20px;
 }
+

@@ -38,7 +38,9 @@ def generate_welcome_js(structure):
 fetch('announcements.txt')
     .then(response => response.text())
     .then(text => {{
-        document.getElementById('announcement').textContent = text;
+        // Replace new lines with <br> to properly format the announcement in HTML
+        const formattedText = text.replace(/\\n/g, '<br>');
+        document.getElementById('announcement').innerHTML = formattedText;
     }})
     .catch(err => {{
         console.error('Error loading announcements:', err);

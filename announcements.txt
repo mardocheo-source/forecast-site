@@ -1,1 +1,3 @@
-Last alert: Japan (whole) 2024-11-21 (UTC)
+Last alert: Japan (whole) 2024-11-21 (UTC)\n
+最新のアラート: 日本全域 2024年11月21日 (UTC)
+

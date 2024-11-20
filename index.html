@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleziona Zona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Benvenuto al Forecast Report</h1>
+    <div class="zone-buttons">
+        <button onclick="openReport('giappone')">Giappone</button>
+        <button onclick="openReport('indonesia')">Indonesia</button>
+        <!-- Aggiungi più pulsanti qui -->
+    </div>
+
+    <script>
+        function openReport(zone) {
+            // Reindirizza alla pagina report.html con la zona come parametro
+            window.location.href = `report.html?zone=${zone}`;
+        }
+    </script>
+</body>
+</html>

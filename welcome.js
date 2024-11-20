@@ -15,10 +15,10 @@ const directoryStructure = {
     "Japan": {
         "2024-11-12": {
             "1 day resolution": {
-                "Japan.2024-11:14-22.01daysStep.Magnitude.pdf": null
+                "Magnitude-Forecast.pdf": null
             },
             "7 days resolution": {
-                "Japan.2024-11-12.07daysStep.Magnitude.pdf": null
+                "Magnitude-Forecast.pdf": null
             }
         }
     }

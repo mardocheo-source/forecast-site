@@ -1,2 +1,2 @@
-Last alert: Japan (whole) 2024-11-24,25,26,27 (UTC) (50% magnitude 6.0)
-最新のアラート: 日本全域 2024年11月24,25,26,27日 (UTC) (50% マグニチュード 6.0)
+Latest Alert: Japan (entire region) December 15–28, 2024 (UTC) (40% probability, magnitude 6.0)
+最新のアラート: 日本全域 2024年12月15日〜28日 (UTC) (発生確率40%、マグニチュード6.0)

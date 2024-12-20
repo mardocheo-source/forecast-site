@@ -40,10 +40,77 @@ fetch('announcements.txt')
     .then(text => {{
         // Replace new lines with <br> to properly format the announcement in HTML
         const formattedText = text.replace(/\\n/g, '<br>');
-        document.getElementById('announcement').innerHTML = formattedText;
+        const announcementDiv = document.createElement('div');
+        announcementDiv.id = 'announcement';
+        announcementDiv.innerHTML = formattedText;
+        announcementDiv.style.textAlign = 'center';
+        announcementDiv.style.marginBottom = '20px';
+        document.body.insertBefore(announcementDiv, document.body.firstChild);
     }})
     .catch(err => {{
         console.error('Error loading announcements:', err);
+    }})
+    .finally(() => {{
+        // Load zones.csv and display it as a table, if it exists
+        fetch('zones.csv')
+            .then(response => {{
+                if (!response.ok) {{
+                    throw new Error('Failed to load zones.csv');
+                }}
+                return response.text();
+            }})
+            .then(csv => {{
+                const rows = csv.split('\\n').filter(row => row.trim() !== '');
+                const table = document.createElement('table');
+                table.style.width = '100%';
+                table.style.borderCollapse = 'collapse';
+                table.style.margin = '20px 0';
+
+                // Add header row with "List of possible affected zones" in English and Japanese
+                const headerEnglish = document.createElement('div');
+                headerEnglish.textContent = 'List of possible affected zones';
+                headerEnglish.style.textAlign = 'center';
+                headerEnglish.style.marginBottom = '10px';
+                headerEnglish.style.fontWeight = 'bold';
+                headerEnglish.style.fontSize = '24px';
+                document.body.appendChild(headerEnglish);
+
+                const headerJapanese = document.createElement('div');
+                headerJapanese.textContent = '影響を受ける可能性のあるエリアのリスト';
+                headerJapanese.style.textAlign = 'center';
+                headerJapanese.style.marginBottom = '10px';
+                headerJapanese.style.fontWeight = 'bold';
+                headerJapanese.style.fontSize = '24px';
+                document.body.appendChild(headerJapanese);
+
+                // Add data rows
+                rows.forEach(row => {{
+                    const tr = document.createElement('tr');
+                    row.split(',').forEach(cell => {{
+                        const td = document.createElement('td');
+                        td.textContent = cell.trim();
+                        td.style.border = '1px solid #ddd';
+                        td.style.padding = '8px';
+                        tr.appendChild(td);
+                    }});
+                    table.appendChild(tr);
+                }});
+
+                // Insert the table after the headers
+                const announcementDiv = document.getElementById('announcement');
+                if (announcementDiv) {{
+                    announcementDiv.parentNode.insertBefore(headerEnglish, announcementDiv.nextSibling);
+                    announcementDiv.parentNode.insertBefore(headerJapanese, headerEnglish.nextSibling);
+                    announcementDiv.parentNode.insertBefore(table, headerJapanese.nextSibling);
+                }} else {{
+                    document.body.appendChild(headerEnglish);
+                    document.body.appendChild(headerJapanese);
+                    document.body.appendChild(table);
+                }}
+            }})
+            .catch(err => {{
+                console.error('Error loading zones.csv:', err);
+            }});
     }});
 
 // Automatically generated links based on directory structure
@@ -146,4 +213,4 @@ welcome_js_content = generate_welcome_js(directory_structure)
 with open(output_js_file, 'w') as js_file:
     js_file.write(welcome_js_content)
 
-print(f"'welcome.js' has been generated with announcements support and directory structure, including back button functionality.")
+print(f"'welcome.js' has been generated with announcements support, zones.csv table, and directory structure, including back button functionality.")

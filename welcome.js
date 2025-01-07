@@ -89,6 +89,11 @@ const directoryStructure = {
             "7 days resolution": {
                 "Magnitude-Forecast.pdf": null
             }
+        },
+        "2025-01": {
+            "7 days resolution": {
+                "aggregated_mag_BalancedAverage.pdf": null
+            }
         }
     }
 };

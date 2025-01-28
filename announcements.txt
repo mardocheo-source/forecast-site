@@ -1,2 +1,17 @@
-Latest Alert: Japan (center) January 08 upto January 15 2025 (UTC) (magnitude 6.0)
-最新の警報: 日本（中央部）01月08日から2025年1月15日まで（UTC）（マグニチュード6.0）
+System update in progress.
+The data will be uploaded 2025-01-31 at 14:00 UTC.
+
+Old Announcements:
+Latest Alert: Japan (central region) January 08 – January 15, 2025 (UTC) (Magnitude 6.0)
+Previous Alerts:
+December 25, 2024 – January 02, 2025 (UTC) (Magnitude 5.8, Kyushu region)
+December 10 – December 17, 2024 (UTC) (Magnitude 6.2, off the Pacific coast)
+次のアップデート予定:
+2025年1月31日 14:00（UTC）にデータがアップロードされます。
+
+過去の警報:
+最新の警報: 日本（中央部）01月08日～2025年01月15日 (UTC) (マグニチュード 6.0)
+過去の警報:
+2024年12月25日～2025年01月02日 (UTC) (マグニチュード 5.8, 九州地域)
+2024年12月10日～12月17日 (UTC) (マグニチュード 6.2, 太平洋沖)
+Please stay alert for further updates.

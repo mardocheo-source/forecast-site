@@ -95,6 +95,9 @@ const directoryStructure = {
                 "aggregated_mag_BalancedAverage.pdf": null
             }
         }
+    },
+    "afghanistan": {
+        "afghanistan.2025-01-30.pdf": null
     }
 };
 

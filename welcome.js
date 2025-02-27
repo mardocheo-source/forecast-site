@@ -94,6 +94,11 @@ const directoryStructure = {
             "7 days resolution": {
                 "aggregated_mag_BalancedAverage.pdf": null
             }
+        },
+        "2025-Feb-2025-Dec": {
+            "report": {
+                "2025-02-27.Report.pdf": null
+            }
         }
     },
     "afghanistan": {

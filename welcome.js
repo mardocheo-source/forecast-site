@@ -97,7 +97,7 @@ const directoryStructure = {
         }
     },
     "afghanistan": {
-        "afghanistan.2025-01-30.pdf": null
+        "world.2025-02-27.pdf": null
     }
 };
 

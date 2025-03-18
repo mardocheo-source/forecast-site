@@ -96,7 +96,10 @@ const directoryStructure = {
             }
         },
         "2025-Feb-2025-Dec": {
-            "report": {
+            "1 day resolution": {
+                "Japan-2025-03-11-30.pdf": null
+            },
+            "30 days resolution": {
                 "2025-02-27.Report.pdf": null
             }
         }

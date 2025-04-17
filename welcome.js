@@ -95,6 +95,11 @@ const directoryStructure = {
                 "aggregated_mag_BalancedAverage.pdf": null
             }
         },
+        "2025-April-May": {
+            "1 day resolution": {
+                "Japan-2025-04-13__05-13.pdf": null
+            }
+        },
         "2025-Feb-2025-Dec": {
             "1 day resolution": {
                 "Japan-2025-03-11-30.pdf": null

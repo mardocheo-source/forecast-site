@@ -107,6 +107,11 @@ const directoryStructure = {
             "30 days resolution": {
                 "2025-02-27.Report.pdf": null
             }
+        },
+        "2025-June-July": {
+            "1 day resolution": {
+                "Japan-2025-June-July.pdf": null
+            }
         }
     },
     "afghanistan": {

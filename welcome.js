@@ -110,7 +110,7 @@ const directoryStructure = {
         },
         "2025-June-July": {
             "1 day resolution": {
-                "Japan-2025-June-July.pdf": null
+                "Seismic_Forecast_Report.pdf": null
             }
         }
     },

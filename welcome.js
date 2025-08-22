@@ -101,13 +101,7 @@ const directoryStructure = {
             }
         },
         "2025-August": {
-            "August 15-25 - 24hrs resolution": {
-                "14-25_Seismic_Forecast_Report.pdf": null,
-                "3-14_Seismic_Forecast_Report.pdf": null
-            },
-            "August 3-14 - 24hrs resolution": {
-                "3-14_Seismic_Forecast_Report.pdf": null
-            }
+            "August 15-25 - 24hrs resolution.pdf": null
         },
         "2025-Feb-2025-Dec": {
             "1 day resolution": {

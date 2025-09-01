@@ -118,7 +118,7 @@ const directoryStructure = {
         }
     },
     "afghanistan": {
-        "world.2025-02-27.pdf": null
+        "2025-09-seismic forecast for Afghanistan.pdf": null
     }
 };
 

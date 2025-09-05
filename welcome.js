@@ -101,7 +101,13 @@ const directoryStructure = {
             }
         },
         "2025-August": {
-            "2025_08_26_Japan_Seismic_Forecast_Report.pdf": null
+            "2025_08_26_Japan_Seismic_Forecast_Report.pdf": null,
+            "A": {
+                "2025_08_26_Japan_Seismic_Forecast_Report.pdf": null
+            },
+            "B": {
+                "2025_09_05_Japan_Seismic_Forecast_Report.pdf": null
+            }
         },
         "2025-Feb-2025-Dec": {
             "1 day resolution": {

@@ -121,6 +121,9 @@ const directoryStructure = {
             "1 day resolution": {
                 "Seismic_Forecast_Report.pdf": null
             }
+        },
+        "2025-September": {
+            "2025_Japan_Seismic_Forecast_Report.pdf": null
         }
     },
     "afghanistan": {

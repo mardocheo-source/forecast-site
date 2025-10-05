@@ -1,3 +1,5 @@
-Earthquake Severe/Catastrophic ALERT FOR: VENEZUELA, September 26 UTC time
-Earthquake/Volcano medium ALERT FOR: JAPAN, September 19/22/27 UTC time
-Earthquake/Volcano Severe ALERT FOR: WORLD, September 21-27 UTC time
+October 5
+Earthquake/Volcano Moderate ALERT FOR: Indonesia/Philippine
+
+October 5,8,16
+Earthquake/Volcano Severe ALERT FOR: WORLD

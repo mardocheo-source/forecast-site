@@ -3,3 +3,6 @@ Earthquake/Volcano Moderate ALERT FOR: Indonesia/Philippine
 
 October 5,8,16
 Earthquake/Volcano Severe ALERT FOR: WORLD
+
+October 16-18
+Earthquake/Volcano Severe ALERT FOR: JAPAN

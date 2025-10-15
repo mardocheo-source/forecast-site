@@ -88,7 +88,9 @@ const directoryStructure = {
             "Seismic_Forecast_Report.pdf": null
         }
     },
-    "Indonesia": {},
+    "Indonesia": {
+        "PHILIPPINE_Seismic_Forecast_2025-10-05.pdf": null
+    },
     "Japan": {
         "2024-11-12": {
             "1 day resolution": {
@@ -130,6 +132,9 @@ const directoryStructure = {
                 "Seismic_Forecast_Report.pdf": null
             }
         },
+        "2025-October": {
+            "Forecast_Japan_2025-10-15_22.pdf": null
+        },
         "2025-September": {
             "2025_Japan_Seismic_Forecast_Report.pdf": null
         }
@@ -137,6 +142,9 @@ const directoryStructure = {
     "WORLD": {
         "2025-09_2025-12": {
             "Seismic_Forecast_Report.pdf": null
+        },
+        "2025-10": {
+            "WORLD_Seismic_Forecast_Report.pdf": null
         }
     },
     "afghanistan": {

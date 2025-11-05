@@ -132,6 +132,9 @@ const directoryStructure = {
                 "Seismic_Forecast_Report.pdf": null
             }
         },
+        "2025-Nov-December": {
+            "Seismic_Forecast_Report.pdf": null
+        },
         "2025-October": {
             "Forecast_Japan_2025-10-15_22.pdf": null
         },

@@ -133,8 +133,13 @@ const directoryStructure = {
             }
         },
         "2025-Nov-December": {
-            "JAPAN_2025-November-Dec_Energy-Seismic_Forecast_Report.pdf": null,
-            "JAPAN_2025-November-Dec_Latitude-Seismic_Forecast_Report.pdf": null
+            "new": {
+                "NEW-JAPAN_2025-November-Dec_Energy-Seismic_Forecast_Report.pdf": null
+            },
+            "old": {
+                "JAPAN_2025-November-Dec_Energy-Seismic_Forecast_Report.pdf": null,
+                "JAPAN_2025-November-Dec_Latitude-Seismic_Forecast_Report.pdf": null
+            }
         },
         "2025-October": {
             "Forecast_Japan_2025-10-15_22.pdf": null

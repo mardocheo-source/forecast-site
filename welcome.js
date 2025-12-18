@@ -80,6 +80,11 @@ fetch('announcements.txt')
 
 // Automatically generated links based on directory structure
 const directoryStructure = {
+    "Alaska": {
+        "2025-January": {
+            "Merged_Seismic_Forecast_Report.pdf": null
+        }
+    },
     "Alaska-Kamchatka-California-Oregon": {
         "ALASKA-KAMCHATKA-NORTH-AMERICA-CALIFORNIA-forecast.pdf": null
     },

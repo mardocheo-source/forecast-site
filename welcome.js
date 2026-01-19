@@ -147,8 +147,8 @@ const directoryStructure = {
     },
     "MEGATRUST-Alaska-Oregon-California": {
         "2026-Jan": {
-            "Merged_Seismic_Forecast_Report.pdf": null,
-            "mega-Map-Pdf.pdf": null
+            "Mega-Map-Pdf.pdf": null,
+            "Merged_Seismic_Forecast_Report.pdf": null
         }
     },
     "OLD-Kamchatka": {

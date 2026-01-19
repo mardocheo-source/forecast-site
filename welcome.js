@@ -80,14 +80,6 @@ fetch('announcements.txt')
 
 // Automatically generated links based on directory structure
 const directoryStructure = {
-    "Alaska": {
-        "2026-Jan": {
-            "Merged_Seismic_Forecast_Report.pdf": null
-        }
-    },
-    "Alaska-Kamchatka-California-Oregon": {
-        "ALASKA-KAMCHATKA-NORTH-AMERICA-CALIFORNIA-forecast.pdf": null
-    },
     "Central-america": {
         "2025-09-26": {
             "Seismic_Forecast_Report.pdf": null
@@ -152,6 +144,14 @@ const directoryStructure = {
         "2025-September": {
             "2025_Japan_Seismic_Forecast_Report.pdf": null
         }
+    },
+    "MEGATRUST-Alaska-Oregon-California": {
+        "2026-Jan": {
+            "Merged_Seismic_Forecast_Report.pdf": null
+        }
+    },
+    "OLD-Kamchatka": {
+        "ALASKA-KAMCHATKA-NORTH-AMERICA-CALIFORNIA-forecast.pdf": null
     },
     "WORLD": {
         "2025-09_2025-12": {
